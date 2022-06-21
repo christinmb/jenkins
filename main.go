@@ -8,7 +8,7 @@ func main() {
 }
 
 func loop() {
-	for i := 0; i < 30; i++ {
+	for i := 0; i < 60; i++ {
 		if i%2 == 0 {
 			continue
 		}
