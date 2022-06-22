@@ -18,17 +18,17 @@ func loop() {
 			continue
 		}
 
-		fmt.Println(i)
+		fmt.Println("Este es el loo", i)
 	}
 }
 func ordenarArray() {
 	a := []string{"Cristina", "Rafael", "Leonardo", "Yanina", "Emmanuel", "Aaron"}
 	sort.Strings(a)
-	fmt.Println(a)
+	fmt.Println("El orden de los nombres es", a)
 }
 func nombreCompleto() {
 	var nombre = "Cristina"
 	var apellido = " Ahumada"
 	var nombreC = nombre + apellido
-	fmt.Println(nombreC)
+	fmt.Println("El nombre completo es", nombreC)
 }
