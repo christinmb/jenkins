@@ -10,6 +10,7 @@ func main() {
 	loop()
 	ordenarArray()
 	nombreCompleto()
+	nombreCompleto2("Cristina", " Ahumada")
 }
 
 func loop() {
@@ -31,4 +32,8 @@ func nombreCompleto() {
 	var apellido = " Ahumada"
 	var nombreC = nombre + apellido
 	fmt.Println("El nombre completo es", nombreC)
+}
+func nombreCompleto2(nombre string, apellido string) {
+	fmt.Println("Bienvenida ", nombre+" "+apellido)
+
 }
