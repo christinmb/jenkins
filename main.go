@@ -1,10 +1,14 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"sort"
+)
 
 func main() {
 	fmt.Println("Hello, world!")
 	loop()
+	ordenarArray()
 }
 
 func loop() {
@@ -15,4 +19,9 @@ func loop() {
 
 		fmt.Println(i)
 	}
+}
+func ordenarArray() {
+	a := []string{"Cristina", "Rafael", "Leonardo", "Yanina", "Emmanuel", "Aaron"}
+	sort.Strings(a)
+	fmt.Println(a)
 }
