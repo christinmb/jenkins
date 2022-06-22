@@ -26,10 +26,8 @@ func ordenarArray() {
 	sort.Strings(a)
 	fmt.Println(a)
 }
-func nombreCompleto(nombre string, apellido string) {
-	nombre = "Cristina"
-	apellido = " Ahumada"
-
-	nombreCompleto("Bienvenida ", nombre+apellido)
-
+func nombreCompleto(nombreC string) {
+	var nombre = "Cristina"
+	var apellido = " Ahumada"
+	nombreC = nombre + apellido
 }
